@@ -3,6 +3,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     background-color: var(--primary);
+    min-height: 100vh;
 }
 
 .header{
@@ -15,7 +16,6 @@ body{
 
 .container{
     display: flex;
-    height: 65vh;
     justify-content: space-around;
     align-items: center;
     font-family: 'Poppins', sans-serif;
